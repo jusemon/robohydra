@@ -1,6 +1,6 @@
 {
   "name": "@jusemon/robohydra",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "bin": {
     "robohydra": "./bin/robohydra.js"
   },
@@ -31,10 +31,10 @@
     "url": "https://github.com/jusemon/robohydra/issues"
   },
   "homepage": "https://github.com/jusemon/robohydra#readme",
-  "directories": {
-    "example": "examples",
-    "lib": "lib",
-    "test": "test"
-  },
+  "files": [
+    "bin/",
+    "lib/",
+    "pugins/"
+  ],
   "license": "Apache-2.0"
 }
