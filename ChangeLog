@@ -3,6 +3,23 @@ Version x.x.x (20xx-xx-xx)
 
 	* Some change
 
+Version 0.6.13 (2024-07-31)
+--------------------------
+
+	* Rewrite requires for use scoped npm packages
+
+Version 0.6.12 (2024-07-31)
+--------------------------
+
+	* Minor fixes
+
+
+Version 0.6.11 (2024-07-31)
+--------------------------
+
+	* Minor fixes
+
+
 Version 0.6.10 (2024-07-31)
 --------------------------
 
