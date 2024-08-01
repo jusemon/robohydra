@@ -1,5 +1,4 @@
-var RoboHydraHeadStatic =
-  require("@jusemon/robohydra").heads.RoboHydraHeadStatic;
+var RoboHydraHeadStatic = require("robohydra").heads.RoboHydraHeadStatic;
 
 exports.getBodyParts = function () {
   return {

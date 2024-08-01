@@ -1,4 +1,4 @@
-var heads = require("@jusemon/robohydra").heads,
+var heads = require("robohydra").heads,
   RoboHydraHead = heads.RoboHydraHead,
   RoboHydraHeadStatic = heads.RoboHydraHeadStatic;
 

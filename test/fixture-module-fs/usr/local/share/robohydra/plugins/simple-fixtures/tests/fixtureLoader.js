@@ -1,4 +1,4 @@
-var RoboHydraHead = require("@jusemon/robohydra").heads.RoboHydraHead;
+var RoboHydraHead = require("robohydra").heads.RoboHydraHead;
 
 exports.getBodyParts = function (conf, modules) {
   var fixtures = modules.fixtures;

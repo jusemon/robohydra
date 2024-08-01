@@ -1,6 +1,6 @@
 var fs = require("fs"),
   path = require("path");
-var robohydra = require("@jusemon/robohydra"),
+var robohydra = require("robohydra"),
   Response = robohydra.Response,
   proxyRequest = robohydra.proxyRequest,
   heads = robohydra.heads,

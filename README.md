@@ -1,5 +1,15 @@
 # RoboHydra server
 
+## IMPORTANT
+
+As this is a drop-in replacement for the original RoboHydra (with security fixes), just install with the following command to avoid renaming imports
+
+```sh
+npm install robohydra@npm:@jusemon/robohydra
+```
+
+## About
+
 RoboHydra is a testing tool for HTTP-based clients (ie. software that
 makes HTTP requests). The idea is, instead of connecting your
 clients-under-test to the real server, you connect them to RoboHydra
@@ -26,17 +36,16 @@ in powerful ways to achieve the results you need.
 RoboHydra is written in Javascript, runs under Node and is distributed
 under the Apache 2.0 license. See LICENSE for the full text.
 
-
 Copyright 2012-2015 Esteban Manchado Velázquez
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-   http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
