@@ -1,11 +1,13 @@
 {
-  "name": "robohydra",
-  "version": "0.6.10000000",
-  "bin": "./bin/robohydra.js",
+  "name": "@jusemon/robohydra",
+  "version": "0.6.12",
+  "bin": {
+    "robohydra": "./bin/robohydra.js"
+  },
   "main": "./lib/exports.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "watch": "node_modules/.bin/mocha -w"
+    "test": "mocha",
+    "watch": "mocha -w"
   },
   "dependencies": {
     "commander": "^2.19.0",
@@ -22,7 +24,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jusemon/robohydra.git"
+    "url": "https://github.com/jusemon/robohydra.git"
   },
-  "snyk": true
+  "snyk": true,
+  "bugs": {
+    "url": "https://github.com/jusemon/robohydra/issues"
+  },
+  "homepage": "https://github.com/jusemon/robohydra#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "Apache-2.0"
 }

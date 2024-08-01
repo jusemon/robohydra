@@ -1,16 +1,16 @@
-var RoboHydraHead = require("robohydra").heads.RoboHydraHead;
+var RoboHydraHead = require("@jusemon/robohydra").heads.RoboHydraHead;
 
-exports.getBodyParts = function(conf, modules) {
-    var fixtures = modules.fixtures;
+exports.getBodyParts = function (conf, modules) {
+  var fixtures = modules.fixtures;
 
-    return {
-        heads: [
-            new RoboHydraHead({
-                path: '/external-test-fixture',
-                handler: function(req, res) {
-                    res.send(fixtures.load('basic.txt'));
-                }
-            })
-        ]
-    };
+  return {
+    heads: [
+      new RoboHydraHead({
+        path: "/external-test-fixture",
+        handler: function (req, res) {
+          res.send(fixtures.load("basic.txt"));
+        },
+      }),
+    ],
+  };
 };

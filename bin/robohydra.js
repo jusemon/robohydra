@@ -7,7 +7,7 @@
 
 var fs = require("fs"),
   commander = require("commander");
-var robohydra = require("robohydra"),
+var robohydra = require("@jusemon/robohydra"),
   createRoboHydraServer = robohydra.createRoboHydraServer,
   resolveConfig = robohydra.resolveConfig;
 
@@ -33,7 +33,7 @@ var robohydra = require("robohydra"),
   }
 
   commander
-    .version("0.6.10000000")
+    .version("0.6.11")
     .usage("mysetup.conf [confvar=value confvar2=value2 ...]")
     .option(
       "-I <path>",
