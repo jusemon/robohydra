@@ -1,6 +1,6 @@
 {
   "name": "robohydra",
-  "version": "0.6.10000000",
+  "version": "0.6.1000000",
   "bin": "./bin/robohydra.js",
   "main": "./lib/exports.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jusemon/robohydra.git"
+    "url": "http://github.com/robohydra/robohydra.git"
   },
   "snyk": true
 }
