@@ -1,5 +1,5 @@
 var path = require("path");
-var heads = require("@jusemon/robohydra").heads,
+var heads = require("robohydra").heads,
   RoboHydraHead = heads.RoboHydraHead,
   RoboHydraWebSocketHead = heads.RoboHydraWebSocketHead,
   RoboHydraHeadFilesystem = heads.RoboHydraHeadFilesystem;

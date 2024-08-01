@@ -3,6 +3,12 @@ Version x.x.x (20xx-xx-xx)
 
 	* Some change
 
+Version 0.7.0 (2024-07-31)
+--------------------------
+
+	* Rollback previous change
+  * Update readme for installation instructions
+
 Version 0.6.13 (2024-07-31)
 --------------------------
 

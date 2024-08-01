@@ -1,5 +1,5 @@
 var util = require("util");
-var robohydra = require("@jusemon/robohydra"),
+var robohydra = require("robohydra"),
   roboHydraHeadType = robohydra.roboHydraHeadType,
   heads = robohydra.heads,
   InvalidRoboHydraHeadException = robohydra.InvalidRoboHydraHeadException;
