@@ -33,7 +33,7 @@ var robohydra = require("robohydra"),
   }
 
   commander
-    .version("0.6.9000001")
+    .version("0.6.10000000")
     .usage("mysetup.conf [confvar=value confvar2=value2 ...]")
     .option(
       "-I <path>",
