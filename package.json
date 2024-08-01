@@ -1,8 +1,8 @@
 {
   "name": "@jusemon/robohydra",
-  "version": "0.6.11",
+  "version": "0.6.12",
   "bin": {
-    "robohydra": "bin/robohydra.js"
+    "robohydra": "./bin/robohydra.js"
   },
   "main": "./lib/exports.js",
   "scripts": {

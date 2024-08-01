@@ -7,7 +7,7 @@
 
 var fs = require("fs"),
   commander = require("commander");
-var robohydra = require("robohydra"),
+var robohydra = require("@jusemon/robohydra"),
   createRoboHydraServer = robohydra.createRoboHydraServer,
   resolveConfig = robohydra.resolveConfig;
 

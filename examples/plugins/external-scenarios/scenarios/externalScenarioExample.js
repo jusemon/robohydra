@@ -1,17 +1,17 @@
-var RoboHydraHead = require("robohydra").heads.RoboHydraHead;
+var RoboHydraHead = require("@jusemon/robohydra").heads.RoboHydraHead;
 
-exports.getBodyParts = function(conf, modules) {
-    var fixtures = modules.fixtures;
+exports.getBodyParts = function (conf, modules) {
+  var fixtures = modules.fixtures;
 
-    return {
-        heads: [
-            new RoboHydraHead({
-                path: '/.*',
-                handler: function(req, res) {
-                    res.headers['content-type'] = 'image/png';
-                    res.send(fixtures.load('/tada.png'));
-                }
-            })
-        ]
-    };
+  return {
+    heads: [
+      new RoboHydraHead({
+        path: "/.*",
+        handler: function (req, res) {
+          res.headers["content-type"] = "image/png";
+          res.send(fixtures.load("/tada.png"));
+        },
+      }),
+    ],
+  };
 };
