@@ -1,6 +1,6 @@
 {
   "name": "@jusemon/robohydra",
-  "version": "0.6.10000000",
+  "version": "0.6.11",
   "bin": {
     "robohydra": "bin/robohydra.js"
   },
