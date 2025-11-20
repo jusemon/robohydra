@@ -3,11 +3,16 @@ Version x.x.x (20xx-xx-xx)
 
 	* Some change
 
+Version 0.7.1 (2025-11-20
+--------------------------
+
+	* Update package-lock.json
+
 Version 0.7.0 (2024-07-31)
 --------------------------
 
 	* Rollback previous change
-  * Update readme for installation instructions
+    * Update readme for installation instructions
 
 Version 0.6.13 (2024-07-31)
 --------------------------
@@ -30,7 +35,7 @@ Version 0.6.10 (2024-07-31)
 --------------------------
 
 	* Upgrade several dependencies for security reasons.
-  * Replace markdown with markdown-it.
+    * Replace markdown with markdown-it.
 
 
 Version 0.6.9 (2021-06-19)
